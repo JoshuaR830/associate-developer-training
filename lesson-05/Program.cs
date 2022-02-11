@@ -11,8 +11,8 @@ namespace lesson_05
             var s3 = new AmazonS3Client();
             var myObject = s3.GetObjectAsync(new GetObjectRequest
             {
-                Key = "s3://adventures-of-wilbur-images/Wilbur_2020_8_15_16_37_23_29.jpg",
-                BucketName = "adventures-of-wilbur-images"
+                Key = "darkflame-universe-backup/data/backup.sql",
+                BucketName = "joshua-game-backup"
             }).Result;
 
             Console.WriteLine($"Status: {myObject.HttpStatusCode}");
