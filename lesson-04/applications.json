@@ -1,0 +1,7 @@
+{
+  "AWS": {
+    "Profile": "associate_developer",
+    "ProfilesLocation": "C:\\Users\\joshua.richardson\\.aws\\credentials",
+    "Region": "eu-west-2"
+  }
+}
